@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- Tailwindcss cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>B12-A5-Emergency-Hotline</title>
 </head>
 <body>
-    
+    <header class="flex flex-col sm:flex-row justify-between items-center px-5 container mx-auto p-3">
+        <div class="flex items-center">
+            <img src="./assets/logo.png" class="h-12" alt="">
+            <h1 class="font-bold text-2xl text-[#006747] ml-4">Emergency <br> Service</h1>
+        </div>
+        <div class="flex">
+            <div class=" flex sm:w-1/3  m-5 justify-center items-center rounded-2xl py-2 px-3 bg-[#41ff6b1a] ">
+                <p class="font-semibold text-2xl" id="heart-balance">0</p>
+                <img src="./assets/heart.png" class="h-[25px]" alt="">
+            </div>
+            <div class="flex sm:w-1/3  m-5 justify-center items-center rounded-2xl py-2 px-3 bg-[#41ff6b1a]">
+                <p id="coin-balance" class="font-semibold text-2xl">100</p>
+                <img src="./assets/coin.png" class="h-[25px] ml-2" alt="">
+            </div>
+            <div class="flex  sm:w-1/3 m-5 justify-center items-center rounded-2xl py-2 px-3 bg-[#00A63E] text-white">
+                <p id="copy-balance" class="font-semibold text-2xl">0</p> 
+                <p class="font-semibold text-[15px] pl-1">Copy</p>
+
+            </div>
+
+        </div>
+    </header>
+    <!-- banner section started -->
+    <div
+        class="banner  bg-[linear-gradient(90deg,rgba(1,50,35,1),rgba(0,103,71,1)_50%,rgba(1,50,35,1)_100%)] flex flex-col items-center justify-center py-5 container mx-auto ">
+        <img src="./assets/logo.png" class="h-16" alt="">
+        <h1 class="text-white font-semibold text-2xl sm:text-[40px]">জরুরি সেবা ডিরেক্টরি</h1>
+        <p class="text-white font-semibold text-center text-[12px] p-4 sm:text-xl">Government Emergency Services at Your Fingertip – A
+            Project by Government of the People’s Republic of Bangladesh</p>
+
+
+    </div>
 </body>
 </html>
